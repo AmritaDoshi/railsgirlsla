@@ -10,7 +10,7 @@
     <p><b>Description: </b><%= @adventure.description %></p>
     <p>
       <%= link_to 'Edit', edit_adventure_path(@adventure) %> |
-      <%= link_to 'Delete', @adventure, data: { confirm: 'Are you sure?' }, method: :delete %> |
+      <%= link_to 'Destroy', @adventure, data: { confirm: 'Are you sure?' }, method: :delete %> |
       <%= link_to 'Back', adventures_path %>
     </p>
   </div>
